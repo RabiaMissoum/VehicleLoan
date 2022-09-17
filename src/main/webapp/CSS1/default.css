@@ -1,0 +1,305 @@
+@charset "ISO-8859-1";
+
+#firstbod{
+    background: #f5f5f5;
+    font-family: Times new;
+    font-size: 14px;
+    padding-bottom: 15px;
+    margin: 0px
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+#slid{
+    margin-top: -30px;
+}
+#wrapper{
+    background: #fff;
+    width: 100%;
+    min-height: auto;
+    margin: auto;
+    border: 1px solid #ccc;
+ 
+}
+.header{
+    width: 100%;
+    height: 120px;
+   border-bottom: 1px solid #ccc;
+}
+#nav{
+    width: 100%;
+    height: 63px;
+    background-color: #68aff9;
+    margin-top: 0px;
+    border-top: 2px solid #1084ff;
+     border-bottom:  1px solid #1084ff;
+}
+#navDash{
+    width: 100%;
+height: 63px;
+background-color: #68aff9;
+margin-top: 0px;
+border-top: 2px solid #1084ff;
+border-bottom: 1px solid #1084ff;   
+}
+
+#topNav{
+    width: 100%;
+    background: #063282;
+    height: 40px;
+    margin-bottom: 30px;
+    font-family: times new;
+font-size: 17px;
+}
+
+#topNavU{
+    float: right;
+     margin-right: 30px;
+}
+#topNavU li{
+    display: inline-block;
+    padding: 8px;
+    color: #fff;
+    border-right: 1px solid #f5f5f5;
+    margin-right: 10px;
+}
+
+#topNavU li:hover{
+    text-decoration: underline;
+    cursor: pointer
+}
+#menuBar{
+    list-style: none;
+    float: left;
+}
+#menuBar li{
+    float: left;
+    padding: 19px;
+    color: #063282;
+   display: inline-block;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   border-right:  #a7d1ff 1px solid;
+}
+#menuBar li:hover{
+    background: #063282;
+    color: white;
+    cursor: pointer;
+}
+#Bar{
+    list-style: none;
+    float: left;
+    
+}
+#Bar li{
+    float: left;
+    padding: 19px;
+    color:yellow;
+   display: inline-block;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   border-right:  #a7d1ff 1px solid;
+   border-radius: 20px;
+   background: green
+}
+#Bar li:hover{
+    background: #063282;
+    color: red;
+    cursor: pointer;
+}
+#BannerDiv{
+    width: 100%;
+    height: 700px;
+   background: url(../images/loanCar.jpg) repeat left top;
+    background-size: 100%;
+    opacity: 0.5
+    
+}
+#ContentDiv{
+     width: 100%;
+    height: auto;
+    background:#f5f5f5;
+      margin-top: -1px
+}
+#footer{
+     width: 100%;
+    height: 150px;
+    background:red;
+    margin-top: 10px
+}
+#headerLeft{
+    width: 50%;
+    height: 120px;
+    background: #f5f5f5;
+    float: left
+}
+
+/*#loginDiv{
+    padding: 0px;
+float: right;
+margin: 75px 275px;
+height: 60px;
+ border-radius: 20px
+}*/
+#loginDiv{
+float: right;
+margin: 5px 200px;
+}
+#das{
+    width: 100%;
+    height: 700px;
+margin-top: -85px; 
+ opacity: 0.5
+}
+#headerRight{
+    width: 50%;
+    height: inherit;
+    float: right
+}
+#innerContent1{
+    padding: 5px;
+}
+.TDT{
+width: 120px;
+padding: 0px;
+float: left;
+margin-left: 10px;
+}
+
+.adm{
+ height: 45px;
+background:#585656;
+text-align: center;
+margin-top: 99px;
+  }
+    .adm:hover{
+         background: #8aa652;
+         color: #fff
+    }
+    .hov{
+        text-decoration: none;
+        color: #620020;
+  }
+ .hov:hover{
+        color: #FFF;
+ }
+
+ .subm{
+    width: 35%;
+height: 40px;
+background: #202020;
+color: white;
+font-family: times inherit;
+font-size: 16px;
+border: 1px solid #ff9cff;
+border-radius: 12px;
+float: right;
+margin: 0px 125px;
+} 
+.subm:focus{
+  background:#007f99;  
+}
+#cont{
+     width: 100%; 
+     height: 500px; 
+     background:#e5e5e5; 
+     float: left;
+font-size: 20px;
+text-transform: uppercase;
+}
+.par{
+    margin: 35px 0px;
+    float: left; 
+    color: #4d4d4d;
+}  
+.contentCon{
+    width: 50%; 
+    float: right;
+    margin: -50px -22px;
+    
+}
+.contentConL{
+    width: 50%; 
+    float: left;
+    border: 1px solid rebeccapurple;
+margin: -45px 20px;
+height: 350px;
+}
+.rightS{
+    width: 100%;
+    color: #fa5c59;
+}
+.rightSS{
+    width: 70%;
+color: #000;
+height: 270px;
+float: left;
+border: 1px solid;
+margin: 40px 0px;
+}
+.rightSA{
+    width: 70%;
+color: #000;
+height: 270px;
+float: left;
+margin: 40px 0px;
+}
+.H4{
+    float: left;
+margin: 8px;
+color: #009899;
+line-height: 0.3em;
+font-family: "Roboto",sans-serif;
+font-weight: 300;
+}
+.H3cont{
+    font-size: 30px;
+font-weight: normal;
+padding-bottom: 0px;
+font-family: 'Ubuntu Condensed', sans-serif;
+color: #fa5c59;
+text-align: center;
+padding: 40px 0;
+margin-top: -15px;
+}
+.Bdes{
+    float: right;
+  padding: 10px;
+  border: 1px solid red;
+  width: 155px;
+  text-align: center;
+  border-radius: 15px;
+  margin: -40px -90px;
+}
+#logg{
+    width: 100%; 
+     height: 500px; 
+     background:#e5e5e5; 
+     float: left;
+}
+.rem{
+    float: left;
+padding: 4px;
+margin-top: -42px;
+margin-left: 20px;
+}
+
+#emiTab{
+    width: 700px;
+float: right;
+border: 1px solid red;
+height: 530px;
+margin: 0px 28px;
+}
+
+.TdEmp{
+    width: 370px;
+height: 30px;
+border-radius: 10px;
+padding: 3px;
+}
+
